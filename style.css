@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.sidebar{
+    background-color: aquamarine;
+    width: 15vw;
+    font-family: 'Lora', serif;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 2px;
+}
+
+.sidebar li{
+    list-style: none;
+    font-size: 20px;
+    padding:30px;
+}
+
+.main{
+    background-color: rgb(115, 182, 201) ;
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+
+}
+.infoContainer{
+    background-color: rgb(196, 148, 240);
+    height:60vh;
+    width: 80vw;
+    margin: 134px auto;
+    display: flex;
+}
+.devPic img{
+    width: 300px;
+}
